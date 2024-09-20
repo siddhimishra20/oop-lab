@@ -11,10 +11,10 @@ This repository contains Java code from Object-Oriented Programming (OOP) lab se
 - Programs: `circle.java`, `digits.java`, `sqcube.java`, `posnegzero.java`
 
 **Lab 3:** Objects, Classes, and Arrays in Java
-- Programs: `elements.java`, `guessgame.java`
+- Programs: `Elements.java`, `guessgame.java`
 
 **Lab 4:** Further Menu-Driven Programs on Objects, Classes, Arrays, and Methods in Java
-- Programs: `creditcard.java`, `employee.java`
+- Programs: `CreditcardTester.java`, `EmployeeTester.java`
 
 If you'd like to contribute or add your own lab exercises, feel free to fork the repository, make changes, and submit a pull request.
 
