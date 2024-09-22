@@ -6,8 +6,8 @@ class Employee {
     float basic;
     float allowance;
     float totalSalary;
-    float hra; // cannot assign value before initializing basic 
-
+    float hra; 
+    
     // A.) Employee Constructor
     public Employee(String id, String name, int dept, float basic, float allowance, float totalSalary, float hra) {
         this.id = id;
@@ -94,17 +94,13 @@ public class EmployeeTester {
             float hra = (0.4f*basic);
             System.out.print("\nEmployee HRA is: " + hra);
 
-            // 7.) Employee Total Salary                    --------------------> Not required? Another method? 
-            // this.totalSalary = (hra + basic + allowance);
-            // System.out.println("\nEmployee Total Salary: " + totalSalary);
-
             // FINISH
             System.out.println("\n\nEmployee Details have been successfully added.");
 
             employee[i] = new Employee(id, name, dept, basic, allowance, allowance, hra);
         }
 
-        int ch; // REMEMBER: u need to write this orelse 'while' will give error
+        int ch;
 
         do {
             System.out.println("\n MENU: ");
